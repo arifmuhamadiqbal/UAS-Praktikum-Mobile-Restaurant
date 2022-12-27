@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListMenu">
+
+    <ImageView
+        android:id="@+id/person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_person"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, Asep"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        app:layout_constraintStart_toEndOf="@id/person"
+        android:layout_marginLeft="10dp"
+        android:paddingTop="12dp"
+        android:textColor="#333333"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/pepperoni_pizza_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pepperoni_pizza"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="@id/person"
+        app:layout_constraintTop_toBottomOf="@id/person"/>
+
+    <TextView
+        android:id="@+id/pepperoni_pizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#FF733F0E"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintStart_toEndOf="@id/pepperoni_pizza_image"
+        app:layout_constraintTop_toBottomOf="@id/person"/>
+
+    <TextView
+        android:id="@+id/pepperoni_pizza_detail"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:justificationMode="inter_word"
+
+        app:layout_constraintStart_toEndOf="@id/pepperoni_pizza_image"
+        app:layout_constraintTop_toBottomOf="@id/pepperoni_pizza"
+        />
+
+    <ImageView
+        android:id="@+id/spaghetti_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/spaghetti"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="@id/person"
+        app:layout_constraintTop_toBottomOf="@id/pepperoni_pizza_image"/>
+
+    <TextView
+        android:id="@+id/spaghetti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#FF733F0E"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintStart_toEndOf="@id/spaghetti_image"
+        app:layout_constraintTop_toBottomOf="@id/pepperoni_pizza_detail"/>
+
+    <TextView
+        android:id="@+id/spaghetti_detail"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:justificationMode="inter_word"
+
+        app:layout_constraintStart_toEndOf="@id/spaghetti_image"
+        app:layout_constraintTop_toBottomOf="@id/spaghetti"
+        />
+
+    <ImageView
+        android:id="@+id/burger_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/burger"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="@id/person"
+        app:layout_constraintTop_toBottomOf="@id/spaghetti_image"/>
+
+    <TextView
+        android:id="@+id/burger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#FF733F0E"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintStart_toEndOf="@id/burger_image"
+        app:layout_constraintTop_toBottomOf="@id/spaghetti_detail"/>
+
+    <TextView
+        android:id="@+id/burger_detail"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:justificationMode="inter_word"
+        app:layout_constraintStart_toEndOf="@id/spaghetti_image"
+        app:layout_constraintTop_toBottomOf="@id/burger"
+        />
+
+    <ImageView
+        android:id="@+id/steak_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/steak"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="@id/person"
+        app:layout_constraintTop_toBottomOf="@id/burger_image"/>
+
+    <TextView
+        android:id="@+id/steak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#FF733F0E"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintStart_toEndOf="@id/steak_image"
+        app:layout_constraintTop_toBottomOf="@id/burger_detail"/>
+
+    <TextView
+        android:id="@+id/steak_detail"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:justificationMode="inter_word"
+        app:layout_constraintStart_toEndOf="@id/burger_image"
+        app:layout_constraintTop_toBottomOf="@id/steak"
+        />
+
+    <ImageView
+        android:id="@+id/french_fries_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/french_fries"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="@id/person"
+        app:layout_constraintTop_toBottomOf="@id/steak_image"/>
+
+    <TextView
+        android:id="@+id/french_fries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#FF733F0E"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        app:layout_constraintStart_toEndOf="@id/steak_image"
+        app:layout_constraintTop_toBottomOf="@id/steak_detail"/>
+
+    <TextView
+        android:id="@+id/french_fries_detail"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:justificationMode="inter_word"
+        app:layout_constraintStart_toEndOf="@id/burger_image"
+        app:layout_constraintTop_toBottomOf="@id/french_fries"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/button_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add"
+        app:backgroundTint="#D52F2F"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintTop_toBottomOf="@id/french_fries_detail"
+        app:layout_constraintEnd_toEndOf="@id/french_fries_detail"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

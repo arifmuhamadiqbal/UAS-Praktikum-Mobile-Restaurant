@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Restaurant</string>
+    <string name="Store">Store</string>
+    <string-array name="city">
+        <item>Cihampelas</item>
+        <item>Cibiru</item>
+    </string-array>
+    <string name="yourname">Your Name</string>
+    <string name="name">Enter your name</string>
+    <string name="submit">Submit</string>
+    <string name="seeMenu">See Menus</string>
+    <string name="pepperoni_pizza">Pepperoni Pizza</string>
+    <string name="spaghetti">Spaghetti</string>
+    <string name="burger">Burger</string>
+    <string name="steak">Steak</string>
+    <string name="pepperoni_pizza_detail">Cocok bagi anda yang ingin merasakan pizza original dengan taburan keju dan daging asap yang lezat</string>
+    <string name="spaghetti_detail">Cocok Bagi anda yang ingin merasakan spaghetti original dengan bumbu yang oriental</string>
+    <string name="burger_detail">Cocok bagi anda yang ingin merasakan kelembutan burger berlapisan keju, sayuran, dan daging yang tebal</string>
+    <string name="steak_detail">Cocok bagi anda yang ingin merasakan lezatnya daging steak dipadukan dengan kentang yang lezat</string>
+    <string name="pepperoni_pizza_description">Pepperoni pizza adalah pizza yang memiliki topping daging pepperoni sapi asli. Di Italia, pepperoni disebut salame piccante (salami panas). Biasa menjadi bahan baku pizza di Amerika Serikat, yang sering mewakili 30% pelengkap. Pizza ini cocok untuk santap siang ataupun malam anda</string>
+    <string name="order_done">Terima kasih Pa Asep sudah memesan di toko kami, pesanan Pepperoni Pizza anda dikirim menggunakan Fast Delivery</string>
+
+</resources>
